@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Proiect 3 - Servlets - Ionut Ciocoiu</title>
+<style>
+	div{
+		margin-left:auto;
+		margin-right:auto;
+		padding-left:25%;
+		padding-top:3%;
+		width:70%;
+	}
+</style>
+</head>
+<body>
+    <div>
+        <h2>Agenda</h2>
+	<h3>Adauga contact</h3>
+	<form method="GET" action="add" name="add_form">
+		*Nume: <input type="text" name="nume"/><br>
+		*Prenume: <input type="text" name="prenume"/><br>
+                *Email: <input type="email" name="email"/><br>
+		*Telefon mobil: <input type="text" name="telefon_mobil"/><br>
+                Telefon fix: <input type="text" name="telefon_fix"/><br>
+                Adresa: <input type="text" name="adresa"/><br>
+                Oras: <input type="text" name="oras"/><br>
+                Judet: <input type="text" name="judet"/><br>
+                Cod Postal: <input type="text" name="cod_postal"/><br>
+		<input type="submit" value="Adauga"/>
+	</form>
+        <h3>Editeaza contact</h3>
+	<form method="GET" action="edit" name="add_form">
+                *Nume vechi: <input type="text" name="vnume" value=""/><br>
+		*Prenume vechi: <input type="text" name="vprenume" value=""/><br>
+		*Nume nou: <input type="text" name="nume" value=""/><br>
+		*Prenume nou: <input type="text" name="prenume" value=""/><br>
+                *Email nou: <input type="email" name="email" value=""/><br>
+		*Telefon mobil nou: <input type="text" name="telefon_mobil" value=""/><br>
+                Telefon fix nou: <input type="text" name="telefon_fix" value=""/><br>
+                Adresa nou: <input type="text" name="adresa" value=""/><br>
+                Oras nou: <input type="text" name="oras" value=""/><br>
+                Judet nou: <input type="text" name="judet" value=""/><br>
+                Cod Postal nou: <input type="text" name="cod_postal" value=""/><br>
+		<input type="submit" value="Editeaza"/>
+	</form>
+        <h3>Sterge contact</h3>
+	<form method="GET" action="delete" name="add_form">
+		*Nume: <input type="text" name="nume" value=""/><br>
+		*Prenume: <input type="text" name="prenume" value=""/><br>
+		<input type="submit" value="Sterge"/>
+	</form>
+        <h3>Cauta contact</h3>
+	<form method="GET" action="search" name="add_form">
+		*Nume: <input type="text" name="nume" value=""/><br>
+		*Prenume: <input type="text" name="prenume" value=""/><br>
+                Email: <input type="email" name="email" value=""/><br>
+		Telefon mobil: <input type="text" name="telefon_mobil" value=""/><br>
+                Telefon fix: <input type="text" name="telefon_fix" value=""/><br>
+                Adresa: <input type="text" name="adresa" value=""/><br>
+                Oras: <input type="text" name="oras" value=""/><br>
+                Judet: <input type="text" name="judet" value=""/><br>
+                Cod Postal: <input type="text" name="cod_postal" value=""/><br>
+		<input type="submit" value="Cauta"/>
+	</form>
+    </div>
+</body>
+</html>
